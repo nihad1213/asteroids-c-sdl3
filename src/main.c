@@ -20,8 +20,7 @@ int main() {
 
     while (e.is_running) {
         engine_handle_events(&e);
-        input_process(&e, &event);
-        engine_init(&e);
+        render(&e);
     }
 
     engine_destroy(&e);

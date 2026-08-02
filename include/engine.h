@@ -17,7 +17,7 @@ typedef struct {
 } Engine;
 
 bool window_init(Window* window);
-void engine_init(Engine* engine);
+void render(Engine* engine);
 void engine_handle_events(Engine* engine);
 void engine_destroy(Engine* engine);
 void input_process(Engine* engine, SDL_Event* event);

@@ -31,7 +31,7 @@ bool window_init(Window* window) {
     return true;
 }
 
-void engine_init(Engine* engine) {
+void render(Engine* engine) {
     SDL_SetRenderDrawColor(engine->window.renderer, 20, 20, 20, 255);
     SDL_RenderClear(engine->window.renderer);
 
@@ -39,13 +39,11 @@ void engine_init(Engine* engine) {
 }
 
 void input_process(Engine* engine, SDL_Event* event) {
-    if (event->type == SDL_EVENT_KEY_DOWN) {
+    if (event->type == SDL_EVENT_QUIT) {
+        engine->is_running = false;
+    } else if (event->type == SDL_EVENT_KEY_DOWN) {
         if (event->key.key == SDLK_ESCAPE) {
             engine->is_running = false;
-        } else if (event.type == SDL_EVENT_KEY_DOWN) {
-            if (event.key.key == SDLK_ESCAPE) {
-                engine->is_running = false;
-            }
         }
     }
 }
