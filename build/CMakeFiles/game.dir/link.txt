@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/game.dir/link.d CMakeFiles/game.dir/src/main.c.o -o bin/game  -lm /usr/lib/x86_64-linux-gnu/libSDL3_image.so /usr/lib/x86_64-linux-gnu/libSDL3_ttf.so /usr/lib/x86_64-linux-gnu/libSDL3.so

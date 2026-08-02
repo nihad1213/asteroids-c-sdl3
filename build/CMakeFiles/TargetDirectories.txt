@@ -1,0 +1,4 @@
+/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles/game.dir
+/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles/run.dir
+/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles/edit_cache.dir
+/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles/rebuild_cache.dir
