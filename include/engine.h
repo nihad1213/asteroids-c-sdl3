@@ -16,4 +16,5 @@ typedef struct {
     bool is_running;
 } Engine;
 
-bool window_init(Window *window);
+bool window_init(Window* window);
+void window_destroy(Window* window);

@@ -18,3 +18,11 @@ bool window_init(Window* window) {
 
     return true;
 }
+
+void window_destroy(Window* window) {
+    if (window->window) {
+        SDL_DestroyWindow(window->window);
+    }
+
+    SDL_Quit();
+}

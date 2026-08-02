@@ -13,5 +13,9 @@ int main() {
         return 1;
     }
 
+
+    window_destroy(&w);
+
+    
     return 0;
 }
