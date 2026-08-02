@@ -3,19 +3,27 @@
 
 int main() {  
     
-    Window w = {
-        .title = "Asteroids",
-        .width = 800,
-        .height = 600
+    Engine e = {
+        .window = {
+            .title = "Asteroids",
+            .width = 800,
+            .height = 600
+        },
+        .is_running = false
     };
 
-    if (!window_init(&w)) {
+    if (!window_init(&e.window)) {
         return 1;
     }
 
+    e.is_running = true;
 
-    window_destroy(&w);
+    while (e.is_running) {
+        engine_handle_events(&e);
+        engine_init(&e);
+    }
 
-    
+    engine_destroy(&e);
+
     return 0;
 }

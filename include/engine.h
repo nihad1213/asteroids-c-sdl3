@@ -17,4 +17,6 @@ typedef struct {
 } Engine;
 
 bool window_init(Window* window);
-void window_destroy(Window* window);
+void engine_init(Engine* engine);
+void engine_handle_events(Engine* engine);
+void engine_destroy(Engine* engine);

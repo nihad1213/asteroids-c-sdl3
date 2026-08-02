@@ -19,12 +19,45 @@ bool window_init(Window* window) {
         return false;
     }
 
+    window->renderer = SDL_CreateRenderer(window->window, NULL);
+
+    if (!window->renderer) {
+        SDL_Log("\033[1;31mERROR: Failed to create renderer: %s\033[0m\n", SDL_GetError());
+        SDL_DestroyWindow(window->window);
+        SDL_Quit();
+        return false;
+    }
+
     return true;
 }
 
-void window_destroy(Window* window) {
-    if (window->window) {
-        SDL_DestroyWindow(window->window);
+void engine_init(Engine* engine) {
+    SDL_SetRenderDrawColor(engine->window.renderer, 20, 20, 20, 255);
+    SDL_RenderClear(engine->window.renderer);
+
+    SDL_RenderPresent(engine->window.renderer);
+}
+
+void engine_handle_events(Engine* engine) {
+    SDL_Event event;
+    while (SDL_PollEvent(&event)) {
+        if (event.type == SDL_EVENT_QUIT) {
+            engine->is_running = false;
+        } else if (event.type == SDL_EVENT_KEY_DOWN) {
+            if (event.key.key == SDLK_ESCAPE) {
+                engine->is_running = false;
+            }
+        }
+    }
+}
+
+void engine_destroy(Engine* engine) {
+    if (engine->window.renderer) {
+        SDL_DestroyRenderer(engine->window.renderer);
+    }
+
+    if (engine->window.window) {
+        SDL_DestroyWindow(engine->window.window);
     }
 
     SDL_Quit();
