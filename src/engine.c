@@ -1,7 +1,10 @@
 #include "engine.h"
 
 bool window_init(Window* window) {
-    SDL_Init(SDL_INIT_VIDEO);
+    if (!SDL_Init(SDL_INIT_VIDEO)) {
+        SDL_Log("\033[1;31mERROR: Failed to initialize SDL: %s\033[0m\n", SDL_GetError());
+        return false;
+    }
 
     window->window = SDL_CreateWindow(
         window->title,
