@@ -38,16 +38,23 @@ void engine_init(Engine* engine) {
     SDL_RenderPresent(engine->window.renderer);
 }
 
-void engine_handle_events(Engine* engine) {
-    SDL_Event event;
-    while (SDL_PollEvent(&event)) {
-        if (event.type == SDL_EVENT_QUIT) {
+void input_process(Engine* engine, SDL_Event* event) {
+    if (event->type == SDL_EVENT_KEY_DOWN) {
+        if (event->key.key == SDLK_ESCAPE) {
             engine->is_running = false;
         } else if (event.type == SDL_EVENT_KEY_DOWN) {
             if (event.key.key == SDLK_ESCAPE) {
                 engine->is_running = false;
             }
         }
+    }
+}
+
+
+void engine_handle_events(Engine* engine) {
+    SDL_Event event;
+    while (SDL_PollEvent(&event)) {
+        input_process(engine, &event);
     }
 }
 
