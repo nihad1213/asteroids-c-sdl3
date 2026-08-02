@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/engine.c" "CMakeFiles/game.dir/src/engine.c.o" "gcc" "CMakeFiles/game.dir/src/engine.c.o.d"
   "/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c" "CMakeFiles/game.dir/src/main.c.o" "gcc" "CMakeFiles/game.dir/src/main.c.o.d"
   "" "bin/game" "gcc" "CMakeFiles/game.dir/link.d"
   )

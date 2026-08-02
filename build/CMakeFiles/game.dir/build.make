@@ -72,27 +72,43 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/codegen:
 .PHONY : CMakeFiles/game.dir/codegen
 
+CMakeFiles/game.dir/src/engine.c.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/engine.c.o: /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/engine.c
+CMakeFiles/game.dir/src/engine.c.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/game.dir/src/engine.c.o"
+	/home/nihad/.local/share/swiftly/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/engine.c.o -MF CMakeFiles/game.dir/src/engine.c.o.d -o CMakeFiles/game.dir/src/engine.c.o -c /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/engine.c
+
+CMakeFiles/game.dir/src/engine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/engine.c.i"
+	/home/nihad/.local/share/swiftly/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/engine.c > CMakeFiles/game.dir/src/engine.c.i
+
+CMakeFiles/game.dir/src/engine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/engine.c.s"
+	/home/nihad/.local/share/swiftly/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/engine.c -o CMakeFiles/game.dir/src/engine.c.s
+
 CMakeFiles/game.dir/src/main.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.c.o: /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c
 CMakeFiles/game.dir/src/main.c.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/game.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.c.o -MF CMakeFiles/game.dir/src/main.c.o.d -o CMakeFiles/game.dir/src/main.c.o -c /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/game.dir/src/main.c.o"
+	/home/nihad/.local/share/swiftly/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.c.o -MF CMakeFiles/game.dir/src/main.c.o.d -o CMakeFiles/game.dir/src/main.c.o -c /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c
 
 CMakeFiles/game.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c > CMakeFiles/game.dir/src/main.c.i
+	/home/nihad/.local/share/swiftly/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c > CMakeFiles/game.dir/src/main.c.i
 
 CMakeFiles/game.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c -o CMakeFiles/game.dir/src/main.c.s
+	/home/nihad/.local/share/swiftly/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/src/main.c -o CMakeFiles/game.dir/src/main.c.s
 
 # Object files for target game
 game_OBJECTS = \
+"CMakeFiles/game.dir/src/engine.c.o" \
 "CMakeFiles/game.dir/src/main.c.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
+bin/game: CMakeFiles/game.dir/src/engine.c.o
 bin/game: CMakeFiles/game.dir/src/main.c.o
 bin/game: CMakeFiles/game.dir/build.make
 bin/game: CMakeFiles/game.dir/compiler_depend.ts
@@ -100,7 +116,7 @@ bin/game: /usr/lib/x86_64-linux-gnu/libSDL3_image.so
 bin/game: /usr/lib/x86_64-linux-gnu/libSDL3_ttf.so
 bin/game: /usr/lib/x86_64-linux-gnu/libSDL3.so
 bin/game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bin/game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bin/game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

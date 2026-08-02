@@ -149,6 +149,30 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/engine.o: src/engine.c.o
+.PHONY : src/engine.o
+
+# target to build an object file
+src/engine.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine.c.o
+.PHONY : src/engine.c.o
+
+src/engine.i: src/engine.c.i
+.PHONY : src/engine.i
+
+# target to preprocess a source file
+src/engine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine.c.i
+.PHONY : src/engine.c.i
+
+src/engine.s: src/engine.c.s
+.PHONY : src/engine.s
+
+# target to generate assembly for a file
+src/engine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine.c.s
+.PHONY : src/engine.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -184,6 +208,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... game"
+	@echo "... src/engine.o"
+	@echo "... src/engine.i"
+	@echo "... src/engine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
