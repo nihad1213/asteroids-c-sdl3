@@ -1,3 +1,5 @@
+#pragma once
+
 #include <SDL3/SDL.h>
 #include <stdbool.h>
 
@@ -7,9 +9,11 @@ typedef struct {
     const char* title;
     int width;
     int height;
-} Screen;
+} Window;
 
 typedef struct {
-    Screen screen;
+    Window window;
     bool is_running;
 } Engine;
+
+bool window_init(Window *window);
