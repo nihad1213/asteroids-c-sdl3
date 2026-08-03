@@ -12,7 +12,7 @@ int main() {
         .is_running = false
     };
 
-    if (!window_init(&e.window)) {
+    if (!engine_init(&e)) {
         return 1;
     }
 
@@ -20,6 +20,7 @@ int main() {
 
     while (e.is_running) {
         engine_handle_events(&e);
+        engine_update(&e);
         render(&e);
     }
 

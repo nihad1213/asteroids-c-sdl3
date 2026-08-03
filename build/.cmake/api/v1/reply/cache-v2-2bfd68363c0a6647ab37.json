@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-ar"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -39,11 +39,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -146,18 +146,6 @@
 			"value" : "/usr/bin/ctest"
 		},
 		{
-			"name" : "CMAKE_CXX_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/clang++"
-		},
-		{
 			"name" : "CMAKE_C_COMPILER",
 			"properties" : 
 			[
@@ -167,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/clang"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -183,27 +171,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "LLVM archiver"
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-ar"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_CLANG_SCAN_DEPS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "`clang-scan-deps` dependency scanner"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_C_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+			"value" : "/usr/bin/gcc-ar-14"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -215,11 +187,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Generate index for LLVM archive"
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-ranlib"
+			"value" : "/usr/bin/gcc-ranlib-14"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -419,11 +391,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -547,7 +519,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/ld.lld"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -659,7 +631,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-nm"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -687,7 +659,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-objcopy"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -703,7 +675,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-objdump"
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -767,7 +739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/home/nihad/.local/share/swiftly/bin/llvm-ranlib"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",

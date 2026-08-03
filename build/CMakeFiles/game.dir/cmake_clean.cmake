@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game.dir/link.d"
+  "CMakeFiles/game.dir/src/asset_loader.c.o"
+  "CMakeFiles/game.dir/src/asset_loader.c.o.d"
+  "CMakeFiles/game.dir/src/background.c.o"
+  "CMakeFiles/game.dir/src/background.c.o.d"
   "CMakeFiles/game.dir/src/engine.c.o"
   "CMakeFiles/game.dir/src/engine.c.o.d"
   "CMakeFiles/game.dir/src/main.c.o"

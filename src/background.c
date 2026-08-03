@@ -4,6 +4,7 @@
 static Star starfield[MAX_STARS];
 
 void background_init(int screen_width, int screen_height) {
+    SDL_Log("Initializing background with size: %dx%d", screen_width, screen_height);
     for (int i = 0; i < MAX_STARS; i++) {
         starfield[i].x = (float)(rand() % screen_width);
         starfield[i].y = (float)(rand() % screen_height);
@@ -16,8 +17,8 @@ void background_init(int screen_width, int screen_height) {
             starfield[i].brightness = 200 + (rand() % 56);
         }
 
-        starfield[i].twinkle_speed = 1.0f + ((float)rand() / RAND_MAX) * 3.0f;
-        starfield[i].twinkle_phase = ((float)rand() / RAND_MAX) * 6.28f;
+        starfield[i].twinkle_speed = 1.0f + ((float)rand() / (float)RAND_MAX) * 3.0f;
+        starfield[i].twinkle_phase = ((float)rand() /(float) RAND_MAX) * 6.28f;
     }
 }
 

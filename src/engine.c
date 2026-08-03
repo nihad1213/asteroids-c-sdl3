@@ -31,9 +31,31 @@ bool window_init(Window* window) {
     return true;
 }
 
+bool engine_init(Engine* engine) {
+    if (!window_init(&engine->window)) {
+        return false;
+    }
+
+    background_init(engine->window.width, engine->window.height);
+
+    engine->is_running = true;
+    engine->last_ticks = SDL_GetTicks();
+    return true;
+}
+
+void engine_update(Engine* engine) {
+    Uint64 current_ticks = SDL_GetTicks();
+    float delta_time = (current_ticks - engine->last_ticks) / 1000.0f;
+    engine->last_ticks = current_ticks;
+
+    background_update(delta_time);
+}
+
 void render(Engine* engine) {
-    SDL_SetRenderDrawColor(engine->window.renderer, 20, 20, 20, 255);
+    SDL_SetRenderDrawColor(engine->window.renderer, 10, 10, 15, 255);
     SDL_RenderClear(engine->window.renderer);
+
+    background_render(engine->window.renderer);
 
     SDL_RenderPresent(engine->window.renderer);
 }
@@ -47,7 +69,6 @@ void input_process(Engine* engine, SDL_Event* event) {
         }
     }
 }
-
 
 void engine_handle_events(Engine* engine) {
     SDL_Event event;

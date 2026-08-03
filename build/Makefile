@@ -149,6 +149,54 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/asset_loader.o: src/asset_loader.c.o
+.PHONY : src/asset_loader.o
+
+# target to build an object file
+src/asset_loader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.o
+.PHONY : src/asset_loader.c.o
+
+src/asset_loader.i: src/asset_loader.c.i
+.PHONY : src/asset_loader.i
+
+# target to preprocess a source file
+src/asset_loader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.i
+.PHONY : src/asset_loader.c.i
+
+src/asset_loader.s: src/asset_loader.c.s
+.PHONY : src/asset_loader.s
+
+# target to generate assembly for a file
+src/asset_loader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.s
+.PHONY : src/asset_loader.c.s
+
+src/background.o: src/background.c.o
+.PHONY : src/background.o
+
+# target to build an object file
+src/background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/background.c.o
+.PHONY : src/background.c.o
+
+src/background.i: src/background.c.i
+.PHONY : src/background.i
+
+# target to preprocess a source file
+src/background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/background.c.i
+.PHONY : src/background.c.i
+
+src/background.s: src/background.c.s
+.PHONY : src/background.s
+
+# target to generate assembly for a file
+src/background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/background.c.s
+.PHONY : src/background.c.s
+
 src/engine.o: src/engine.c.o
 .PHONY : src/engine.o
 
@@ -208,6 +256,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... game"
+	@echo "... src/asset_loader.o"
+	@echo "... src/asset_loader.i"
+	@echo "... src/asset_loader.s"
+	@echo "... src/background.o"
+	@echo "... src/background.i"
+	@echo "... src/background.s"
 	@echo "... src/engine.o"
 	@echo "... src/engine.i"
 	@echo "... src/engine.s"
