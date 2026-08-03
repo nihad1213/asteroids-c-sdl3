@@ -6,8 +6,8 @@ int main() {
     Engine e = {
         .window = {
             .title = "Asteroids",
-            .width = 800,
-            .height = 600
+            .width = 1280,
+            .height = 720
         },
         .is_running = false
     };
