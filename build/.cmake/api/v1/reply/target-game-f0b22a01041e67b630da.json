@@ -152,7 +152,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu2x"
+					"fragment" : "-std=gnu23"
 				},
 				{
 					"backtrace" : 18,

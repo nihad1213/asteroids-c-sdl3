@@ -5,12 +5,12 @@
 		{
 			"compiler" : 
 			{
-				"id" : "GNU",
+				"id" : "Clang",
 				"implicit" : 
 				{
 					"includeDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-linux-gnu/14/include",
+						"/home/nihad/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include",
 						"/usr/local/include",
 						"/usr/include/x86_64-linux-gnu",
 						"/usr/include"
@@ -18,10 +18,12 @@
 					"linkDirectories" : 
 					[
 						"/usr/lib/gcc/x86_64-linux-gnu/14",
-						"/usr/lib/x86_64-linux-gnu",
-						"/usr/lib",
+						"/usr/lib64",
 						"/lib/x86_64-linux-gnu",
-						"/lib"
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/lib",
+						"/usr/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -33,8 +35,8 @@
 						"gcc_s"
 					]
 				},
-				"path" : "/usr/bin/cc",
-				"version" : "14.2.0"
+				"path" : "/home/nihad/.local/share/swiftly/bin/clang",
+				"version" : "21.0.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
