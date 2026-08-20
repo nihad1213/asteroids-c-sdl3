@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/asset_loader.c" "CMakeFiles/game.dir/src/asset_loader.c.o" "gcc" "CMakeFiles/game.dir/src/asset_loader.c.o.d"
   "/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/asteroid.c" "CMakeFiles/game.dir/src/asteroid.c.o" "gcc" "CMakeFiles/game.dir/src/asteroid.c.o.d"
   "/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/background.c" "CMakeFiles/game.dir/src/background.c.o" "gcc" "CMakeFiles/game.dir/src/background.c.o.d"
   "/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/bullet.c" "CMakeFiles/game.dir/src/bullet.c.o" "gcc" "CMakeFiles/game.dir/src/bullet.c.o.d"

@@ -2,7 +2,6 @@ bin/game: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
-  CMakeFiles/game.dir/src/asset_loader.c.o \
   CMakeFiles/game.dir/src/asteroid.c.o \
   CMakeFiles/game.dir/src/background.c.o \
   CMakeFiles/game.dir/src/bullet.c.o \
@@ -97,8 +96,6 @@ bin/game: \
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
-
-CMakeFiles/game.dir/src/asset_loader.c.o:
 
 CMakeFiles/game.dir/src/asteroid.c.o:
 

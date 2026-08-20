@@ -149,30 +149,6 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-src/asset_loader.o: src/asset_loader.c.o
-.PHONY : src/asset_loader.o
-
-# target to build an object file
-src/asset_loader.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.o
-.PHONY : src/asset_loader.c.o
-
-src/asset_loader.i: src/asset_loader.c.i
-.PHONY : src/asset_loader.i
-
-# target to preprocess a source file
-src/asset_loader.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.i
-.PHONY : src/asset_loader.c.i
-
-src/asset_loader.s: src/asset_loader.c.s
-.PHONY : src/asset_loader.s
-
-# target to generate assembly for a file
-src/asset_loader.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.s
-.PHONY : src/asset_loader.c.s
-
 src/asteroid.o: src/asteroid.c.o
 .PHONY : src/asteroid.o
 
@@ -352,9 +328,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... game"
-	@echo "... src/asset_loader.o"
-	@echo "... src/asset_loader.i"
-	@echo "... src/asset_loader.s"
 	@echo "... src/asteroid.o"
 	@echo "... src/asteroid.i"
 	@echo "... src/asteroid.s"
