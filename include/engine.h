@@ -4,6 +4,9 @@
 #include <stdbool.h>
 #include "background.h"
 #include "player.h"
+#include "asteroid.h"
+#include "bullet.h"
+#include "game.h"
 
 typedef struct {
     SDL_Window* window;
@@ -16,6 +19,9 @@ typedef struct {
 typedef struct {
     Window window;
     Player player;
+    Asteroid asteroids[MAX_ASTEROIDS];
+    Bullet bullets[MAX_BULLETS];
+    Game game;
     bool is_running;
     Uint64 last_ticks;
 } Engine;

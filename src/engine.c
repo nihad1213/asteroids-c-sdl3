@@ -38,6 +38,13 @@ bool engine_init(Engine* engine) {
 
     background_init(engine->window.width, engine->window.height);
     player_init(&engine->player, engine->window.width, engine->window.height);
+    asteroid_init(engine->asteroids, MAX_ASTEROIDS);
+    bullet_init(engine->bullets, MAX_BULLETS);
+
+    if (!game_init(&engine->game, engine->window.renderer, engine->asteroids, MAX_ASTEROIDS,
+                   engine->window.width, engine->window.height)) {
+        return false;
+    }
 
     engine->is_running = true;
     engine->last_ticks = SDL_GetTicks();
@@ -50,7 +57,15 @@ void engine_update(Engine* engine) {
     engine->last_ticks = current_ticks;
 
     background_update(delta_time);
-    player_update(&engine->player, delta_time, engine->window.width, engine->window.height);
+
+    if (engine->game.state == GAME_STATE_PLAYING) {
+        player_update(&engine->player, delta_time, engine->window.width, engine->window.height);
+    }
+
+    game_update(&engine->game, delta_time, &engine->player,
+                engine->asteroids, MAX_ASTEROIDS,
+                engine->bullets, MAX_BULLETS,
+                engine->window.renderer, engine->window.width, engine->window.height);
 }
 
 void render(Engine* engine) {
@@ -58,7 +73,14 @@ void render(Engine* engine) {
     SDL_RenderClear(engine->window.renderer);
 
     background_render(engine->window.renderer);
-    player_render(&engine->player, engine->window.renderer);
+    asteroid_render(engine->asteroids, MAX_ASTEROIDS, engine->window.renderer);
+    bullet_render(engine->bullets, MAX_BULLETS, engine->window.renderer);
+
+    if (engine->game.state == GAME_STATE_PLAYING) {
+        player_render(&engine->player, engine->window.renderer);
+    }
+
+    game_render(&engine->game, engine->window.renderer, engine->window.width, engine->window.height);
 
     SDL_RenderPresent(engine->window.renderer);
 }
@@ -81,6 +103,8 @@ void engine_handle_events(Engine* engine) {
 }
 
 void engine_destroy(Engine* engine) {
+    game_destroy(&engine->game);
+
     if (engine->window.renderer) {
         SDL_DestroyRenderer(engine->window.renderer);
     }

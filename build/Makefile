@@ -173,6 +173,30 @@ src/asset_loader.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asset_loader.c.s
 .PHONY : src/asset_loader.c.s
 
+src/asteroid.o: src/asteroid.c.o
+.PHONY : src/asteroid.o
+
+# target to build an object file
+src/asteroid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asteroid.c.o
+.PHONY : src/asteroid.c.o
+
+src/asteroid.i: src/asteroid.c.i
+.PHONY : src/asteroid.i
+
+# target to preprocess a source file
+src/asteroid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asteroid.c.i
+.PHONY : src/asteroid.c.i
+
+src/asteroid.s: src/asteroid.c.s
+.PHONY : src/asteroid.s
+
+# target to generate assembly for a file
+src/asteroid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/asteroid.c.s
+.PHONY : src/asteroid.c.s
+
 src/background.o: src/background.c.o
 .PHONY : src/background.o
 
@@ -197,6 +221,30 @@ src/background.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/background.c.s
 .PHONY : src/background.c.s
 
+src/bullet.o: src/bullet.c.o
+.PHONY : src/bullet.o
+
+# target to build an object file
+src/bullet.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/bullet.c.o
+.PHONY : src/bullet.c.o
+
+src/bullet.i: src/bullet.c.i
+.PHONY : src/bullet.i
+
+# target to preprocess a source file
+src/bullet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/bullet.c.i
+.PHONY : src/bullet.c.i
+
+src/bullet.s: src/bullet.c.s
+.PHONY : src/bullet.s
+
+# target to generate assembly for a file
+src/bullet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/bullet.c.s
+.PHONY : src/bullet.c.s
+
 src/engine.o: src/engine.c.o
 .PHONY : src/engine.o
 
@@ -220,6 +268,30 @@ src/engine.s: src/engine.c.s
 src/engine.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/engine.c.s
 .PHONY : src/engine.c.s
+
+src/game.o: src/game.c.o
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game.c.o
+.PHONY : src/game.c.o
+
+src/game.i: src/game.c.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game.c.i
+.PHONY : src/game.c.i
+
+src/game.s: src/game.c.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game.c.s
+.PHONY : src/game.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -283,12 +355,21 @@ help:
 	@echo "... src/asset_loader.o"
 	@echo "... src/asset_loader.i"
 	@echo "... src/asset_loader.s"
+	@echo "... src/asteroid.o"
+	@echo "... src/asteroid.i"
+	@echo "... src/asteroid.s"
 	@echo "... src/background.o"
 	@echo "... src/background.i"
 	@echo "... src/background.s"
+	@echo "... src/bullet.o"
+	@echo "... src/bullet.i"
+	@echo "... src/bullet.s"
 	@echo "... src/engine.o"
 	@echo "... src/engine.i"
 	@echo "... src/engine.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

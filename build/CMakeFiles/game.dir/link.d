@@ -3,8 +3,11 @@ bin/game: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/game.dir/src/asset_loader.c.o \
+  CMakeFiles/game.dir/src/asteroid.c.o \
   CMakeFiles/game.dir/src/background.c.o \
+  CMakeFiles/game.dir/src/bullet.c.o \
   CMakeFiles/game.dir/src/engine.c.o \
+  CMakeFiles/game.dir/src/game.c.o \
   CMakeFiles/game.dir/src/main.c.o \
   CMakeFiles/game.dir/src/player.c.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
@@ -35,6 +38,8 @@ bin/game: \
   /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o \
+  /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
+  /lib/x86_64-linux-gnu/libfreetype.so.6 \
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libasound.so.2 \
   /lib/x86_64-linux-gnu/libX11.so.6 \
@@ -55,6 +60,12 @@ bin/game: \
   /lib/x86_64-linux-gnu/libxkbcommon.so.0 \
   /lib/x86_64-linux-gnu/libdecor-0.so.0 \
   /lib64/ld-linux-x86-64.so.2 \
+  /lib/x86_64-linux-gnu/libglib-2.0.so.0 \
+  /lib/x86_64-linux-gnu/libgraphite2.so.3 \
+  /lib/x86_64-linux-gnu/libz.so.1 \
+  /lib/x86_64-linux-gnu/libbz2.so.1.0 \
+  /lib/x86_64-linux-gnu/libpng16.so.16 \
+  /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
   /lib/x86_64-linux-gnu/libxcb.so.1 \
   /lib/x86_64-linux-gnu/libXrender.so.1 \
   /usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-17.0.so \
@@ -62,6 +73,9 @@ bin/game: \
   /lib/x86_64-linux-gnu/libbsd.so.0 \
   /lib/x86_64-linux-gnu/libexpat.so.1 \
   /lib/x86_64-linux-gnu/libffi.so.8 \
+  /lib/x86_64-linux-gnu/libatomic.so.1 \
+  /lib/x86_64-linux-gnu/libpcre2-8.so.0 \
+  /lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
   /lib/x86_64-linux-gnu/libXau.so.6 \
   /lib/x86_64-linux-gnu/libXdmcp.so.6 \
   /lib/x86_64-linux-gnu/libsndfile.so.1 \
@@ -86,9 +100,15 @@ bin/game: \
 
 CMakeFiles/game.dir/src/asset_loader.c.o:
 
+CMakeFiles/game.dir/src/asteroid.c.o:
+
 CMakeFiles/game.dir/src/background.c.o:
 
+CMakeFiles/game.dir/src/bullet.c.o:
+
 CMakeFiles/game.dir/src/engine.c.o:
+
+CMakeFiles/game.dir/src/game.c.o:
 
 CMakeFiles/game.dir/src/main.c.o:
 
@@ -150,6 +170,10 @@ CMakeFiles/game.dir/src/player.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o:
 
+/lib/x86_64-linux-gnu/libharfbuzz.so.0:
+
+/lib/x86_64-linux-gnu/libfreetype.so.6:
+
 /lib/x86_64-linux-gnu/libm.so.6:
 
 /lib/x86_64-linux-gnu/libasound.so.2:
@@ -190,6 +214,18 @@ CMakeFiles/game.dir/src/player.c.o:
 
 /lib64/ld-linux-x86-64.so.2:
 
+/lib/x86_64-linux-gnu/libglib-2.0.so.0:
+
+/lib/x86_64-linux-gnu/libgraphite2.so.3:
+
+/lib/x86_64-linux-gnu/libz.so.1:
+
+/lib/x86_64-linux-gnu/libbz2.so.1.0:
+
+/lib/x86_64-linux-gnu/libpng16.so.16:
+
+/lib/x86_64-linux-gnu/libbrotlidec.so.1:
+
 /lib/x86_64-linux-gnu/libxcb.so.1:
 
 /lib/x86_64-linux-gnu/libXrender.so.1:
@@ -203,6 +239,12 @@ CMakeFiles/game.dir/src/player.c.o:
 /lib/x86_64-linux-gnu/libexpat.so.1:
 
 /lib/x86_64-linux-gnu/libffi.so.8:
+
+/lib/x86_64-linux-gnu/libatomic.so.1:
+
+/lib/x86_64-linux-gnu/libpcre2-8.so.0:
+
+/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
 
 /lib/x86_64-linux-gnu/libXau.so.6:
 

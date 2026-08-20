@@ -105,6 +105,130 @@ CMakeFiles/game.dir/src/asset_loader.c.o: /media/nihad/HDD214/C-Learning/asteroi
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
+CMakeFiles/game.dir/src/asteroid.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/asteroid.c \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/asteroid.h \
+  /usr/include/SDL3/SDL.h \
+  /usr/include/SDL3/SDL_assert.h \
+  /usr/include/SDL3/SDL_asyncio.h \
+  /usr/include/SDL3/SDL_atomic.h \
+  /usr/include/SDL3/SDL_audio.h \
+  /usr/include/SDL3/SDL_begin_code.h \
+  /usr/include/SDL3/SDL_bits.h \
+  /usr/include/SDL3/SDL_blendmode.h \
+  /usr/include/SDL3/SDL_camera.h \
+  /usr/include/SDL3/SDL_clipboard.h \
+  /usr/include/SDL3/SDL_close_code.h \
+  /usr/include/SDL3/SDL_cpuinfo.h \
+  /usr/include/SDL3/SDL_dialog.h \
+  /usr/include/SDL3/SDL_endian.h \
+  /usr/include/SDL3/SDL_error.h \
+  /usr/include/SDL3/SDL_events.h \
+  /usr/include/SDL3/SDL_filesystem.h \
+  /usr/include/SDL3/SDL_gamepad.h \
+  /usr/include/SDL3/SDL_gpu.h \
+  /usr/include/SDL3/SDL_guid.h \
+  /usr/include/SDL3/SDL_haptic.h \
+  /usr/include/SDL3/SDL_hidapi.h \
+  /usr/include/SDL3/SDL_hints.h \
+  /usr/include/SDL3/SDL_init.h \
+  /usr/include/SDL3/SDL_iostream.h \
+  /usr/include/SDL3/SDL_joystick.h \
+  /usr/include/SDL3/SDL_keyboard.h \
+  /usr/include/SDL3/SDL_keycode.h \
+  /usr/include/SDL3/SDL_loadso.h \
+  /usr/include/SDL3/SDL_locale.h \
+  /usr/include/SDL3/SDL_log.h \
+  /usr/include/SDL3/SDL_messagebox.h \
+  /usr/include/SDL3/SDL_metal.h \
+  /usr/include/SDL3/SDL_misc.h \
+  /usr/include/SDL3/SDL_mouse.h \
+  /usr/include/SDL3/SDL_mutex.h \
+  /usr/include/SDL3/SDL_oldnames.h \
+  /usr/include/SDL3/SDL_pen.h \
+  /usr/include/SDL3/SDL_pixels.h \
+  /usr/include/SDL3/SDL_platform.h \
+  /usr/include/SDL3/SDL_platform_defines.h \
+  /usr/include/SDL3/SDL_power.h \
+  /usr/include/SDL3/SDL_process.h \
+  /usr/include/SDL3/SDL_properties.h \
+  /usr/include/SDL3/SDL_rect.h \
+  /usr/include/SDL3/SDL_render.h \
+  /usr/include/SDL3/SDL_scancode.h \
+  /usr/include/SDL3/SDL_sensor.h \
+  /usr/include/SDL3/SDL_stdinc.h \
+  /usr/include/SDL3/SDL_storage.h \
+  /usr/include/SDL3/SDL_surface.h \
+  /usr/include/SDL3/SDL_system.h \
+  /usr/include/SDL3/SDL_thread.h \
+  /usr/include/SDL3/SDL_time.h \
+  /usr/include/SDL3/SDL_timer.h \
+  /usr/include/SDL3/SDL_touch.h \
+  /usr/include/SDL3/SDL_tray.h \
+  /usr/include/SDL3/SDL_version.h \
+  /usr/include/SDL3/SDL_video.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/inttypes.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
+
 CMakeFiles/game.dir/src/background.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/background.c \
   /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/background.h \
   /usr/include/SDL3/SDL.h \
@@ -229,9 +353,114 @@ CMakeFiles/game.dir/src/background.c.o: /media/nihad/HDD214/C-Learning/asteroids
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
+CMakeFiles/game.dir/src/bullet.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/bullet.c \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/bullet.h \
+  /usr/include/SDL3/SDL.h \
+  /usr/include/SDL3/SDL_assert.h \
+  /usr/include/SDL3/SDL_asyncio.h \
+  /usr/include/SDL3/SDL_atomic.h \
+  /usr/include/SDL3/SDL_audio.h \
+  /usr/include/SDL3/SDL_begin_code.h \
+  /usr/include/SDL3/SDL_bits.h \
+  /usr/include/SDL3/SDL_blendmode.h \
+  /usr/include/SDL3/SDL_camera.h \
+  /usr/include/SDL3/SDL_clipboard.h \
+  /usr/include/SDL3/SDL_close_code.h \
+  /usr/include/SDL3/SDL_cpuinfo.h \
+  /usr/include/SDL3/SDL_dialog.h \
+  /usr/include/SDL3/SDL_endian.h \
+  /usr/include/SDL3/SDL_error.h \
+  /usr/include/SDL3/SDL_events.h \
+  /usr/include/SDL3/SDL_filesystem.h \
+  /usr/include/SDL3/SDL_gamepad.h \
+  /usr/include/SDL3/SDL_gpu.h \
+  /usr/include/SDL3/SDL_guid.h \
+  /usr/include/SDL3/SDL_haptic.h \
+  /usr/include/SDL3/SDL_hidapi.h \
+  /usr/include/SDL3/SDL_hints.h \
+  /usr/include/SDL3/SDL_init.h \
+  /usr/include/SDL3/SDL_iostream.h \
+  /usr/include/SDL3/SDL_joystick.h \
+  /usr/include/SDL3/SDL_keyboard.h \
+  /usr/include/SDL3/SDL_keycode.h \
+  /usr/include/SDL3/SDL_loadso.h \
+  /usr/include/SDL3/SDL_locale.h \
+  /usr/include/SDL3/SDL_log.h \
+  /usr/include/SDL3/SDL_messagebox.h \
+  /usr/include/SDL3/SDL_metal.h \
+  /usr/include/SDL3/SDL_misc.h \
+  /usr/include/SDL3/SDL_mouse.h \
+  /usr/include/SDL3/SDL_mutex.h \
+  /usr/include/SDL3/SDL_oldnames.h \
+  /usr/include/SDL3/SDL_pen.h \
+  /usr/include/SDL3/SDL_pixels.h \
+  /usr/include/SDL3/SDL_platform.h \
+  /usr/include/SDL3/SDL_platform_defines.h \
+  /usr/include/SDL3/SDL_power.h \
+  /usr/include/SDL3/SDL_process.h \
+  /usr/include/SDL3/SDL_properties.h \
+  /usr/include/SDL3/SDL_rect.h \
+  /usr/include/SDL3/SDL_render.h \
+  /usr/include/SDL3/SDL_scancode.h \
+  /usr/include/SDL3/SDL_sensor.h \
+  /usr/include/SDL3/SDL_stdinc.h \
+  /usr/include/SDL3/SDL_storage.h \
+  /usr/include/SDL3/SDL_surface.h \
+  /usr/include/SDL3/SDL_system.h \
+  /usr/include/SDL3/SDL_thread.h \
+  /usr/include/SDL3/SDL_time.h \
+  /usr/include/SDL3/SDL_timer.h \
+  /usr/include/SDL3/SDL_touch.h \
+  /usr/include/SDL3/SDL_tray.h \
+  /usr/include/SDL3/SDL_version.h \
+  /usr/include/SDL3/SDL_video.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/inttypes.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
+
 CMakeFiles/game.dir/src/engine.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/engine.c \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/asteroid.h \
   /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/background.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/bullet.h \
   /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/engine.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/game.h \
   /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/player.h \
   /usr/include/SDL3/SDL.h \
   /usr/include/SDL3/SDL_assert.h \
@@ -292,6 +521,7 @@ CMakeFiles/game.dir/src/engine.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-s
   /usr/include/SDL3/SDL_tray.h \
   /usr/include/SDL3/SDL_version.h \
   /usr/include/SDL3/SDL_video.h \
+  /usr/include/SDL3_ttf/SDL_ttf.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
@@ -355,9 +585,10 @@ CMakeFiles/game.dir/src/engine.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-s
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
-CMakeFiles/game.dir/src/main.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/main.c \
-  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/background.h \
-  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/engine.h \
+CMakeFiles/game.dir/src/game.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/game.c \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/asteroid.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/bullet.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/game.h \
   /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/player.h \
   /usr/include/SDL3/SDL.h \
   /usr/include/SDL3/SDL_assert.h \
@@ -418,6 +649,115 @@ CMakeFiles/game.dir/src/main.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl
   /usr/include/SDL3/SDL_tray.h \
   /usr/include/SDL3/SDL_version.h \
   /usr/include/SDL3/SDL_video.h \
+  /usr/include/SDL3_ttf/SDL_ttf.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/inttypes.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
+
+CMakeFiles/game.dir/src/main.c.o: /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/main.c \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/asteroid.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/background.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/bullet.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/engine.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/game.h \
+  /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/player.h \
+  /usr/include/SDL3/SDL.h \
+  /usr/include/SDL3/SDL_assert.h \
+  /usr/include/SDL3/SDL_asyncio.h \
+  /usr/include/SDL3/SDL_atomic.h \
+  /usr/include/SDL3/SDL_audio.h \
+  /usr/include/SDL3/SDL_begin_code.h \
+  /usr/include/SDL3/SDL_bits.h \
+  /usr/include/SDL3/SDL_blendmode.h \
+  /usr/include/SDL3/SDL_camera.h \
+  /usr/include/SDL3/SDL_clipboard.h \
+  /usr/include/SDL3/SDL_close_code.h \
+  /usr/include/SDL3/SDL_cpuinfo.h \
+  /usr/include/SDL3/SDL_dialog.h \
+  /usr/include/SDL3/SDL_endian.h \
+  /usr/include/SDL3/SDL_error.h \
+  /usr/include/SDL3/SDL_events.h \
+  /usr/include/SDL3/SDL_filesystem.h \
+  /usr/include/SDL3/SDL_gamepad.h \
+  /usr/include/SDL3/SDL_gpu.h \
+  /usr/include/SDL3/SDL_guid.h \
+  /usr/include/SDL3/SDL_haptic.h \
+  /usr/include/SDL3/SDL_hidapi.h \
+  /usr/include/SDL3/SDL_hints.h \
+  /usr/include/SDL3/SDL_init.h \
+  /usr/include/SDL3/SDL_iostream.h \
+  /usr/include/SDL3/SDL_joystick.h \
+  /usr/include/SDL3/SDL_keyboard.h \
+  /usr/include/SDL3/SDL_keycode.h \
+  /usr/include/SDL3/SDL_loadso.h \
+  /usr/include/SDL3/SDL_locale.h \
+  /usr/include/SDL3/SDL_log.h \
+  /usr/include/SDL3/SDL_messagebox.h \
+  /usr/include/SDL3/SDL_metal.h \
+  /usr/include/SDL3/SDL_misc.h \
+  /usr/include/SDL3/SDL_mouse.h \
+  /usr/include/SDL3/SDL_mutex.h \
+  /usr/include/SDL3/SDL_oldnames.h \
+  /usr/include/SDL3/SDL_pen.h \
+  /usr/include/SDL3/SDL_pixels.h \
+  /usr/include/SDL3/SDL_platform.h \
+  /usr/include/SDL3/SDL_platform_defines.h \
+  /usr/include/SDL3/SDL_power.h \
+  /usr/include/SDL3/SDL_process.h \
+  /usr/include/SDL3/SDL_properties.h \
+  /usr/include/SDL3/SDL_rect.h \
+  /usr/include/SDL3/SDL_render.h \
+  /usr/include/SDL3/SDL_scancode.h \
+  /usr/include/SDL3/SDL_sensor.h \
+  /usr/include/SDL3/SDL_stdinc.h \
+  /usr/include/SDL3/SDL_storage.h \
+  /usr/include/SDL3/SDL_surface.h \
+  /usr/include/SDL3/SDL_system.h \
+  /usr/include/SDL3/SDL_thread.h \
+  /usr/include/SDL3/SDL_time.h \
+  /usr/include/SDL3/SDL_timer.h \
+  /usr/include/SDL3/SDL_touch.h \
+  /usr/include/SDL3/SDL_tray.h \
+  /usr/include/SDL3/SDL_version.h \
+  /usr/include/SDL3/SDL_video.h \
+  /usr/include/SDL3_ttf/SDL_ttf.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
@@ -603,7 +943,11 @@ bin/game: /lib/x86_64-linux-gnu/libFLAC.so.14 \
   /lib/x86_64-linux-gnu/libXss.so.1 \
   /lib/x86_64-linux-gnu/libasound.so.2 \
   /lib/x86_64-linux-gnu/libasyncns.so.0 \
+  /lib/x86_64-linux-gnu/libatomic.so.1 \
+  /lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
+  /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
   /lib/x86_64-linux-gnu/libbsd.so.0 \
+  /lib/x86_64-linux-gnu/libbz2.so.1.0 \
   /lib/x86_64-linux-gnu/libc.so.6 \
   /lib/x86_64-linux-gnu/libcap.so.2 \
   /lib/x86_64-linux-gnu/libdbus-1.so.3 \
@@ -611,7 +955,11 @@ bin/game: /lib/x86_64-linux-gnu/libFLAC.so.14 \
   /lib/x86_64-linux-gnu/libdrm.so.2 \
   /lib/x86_64-linux-gnu/libexpat.so.1 \
   /lib/x86_64-linux-gnu/libffi.so.8 \
+  /lib/x86_64-linux-gnu/libfreetype.so.6 \
   /lib/x86_64-linux-gnu/libgbm.so.1 \
+  /lib/x86_64-linux-gnu/libglib-2.0.so.0 \
+  /lib/x86_64-linux-gnu/libgraphite2.so.3 \
+  /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libmd.so.0 \
   /lib/x86_64-linux-gnu/libmp3lame.so.0 \
@@ -619,7 +967,9 @@ bin/game: /lib/x86_64-linux-gnu/libFLAC.so.14 \
   /lib/x86_64-linux-gnu/libmvec.so.1 \
   /lib/x86_64-linux-gnu/libogg.so.0 \
   /lib/x86_64-linux-gnu/libopus.so.0 \
+  /lib/x86_64-linux-gnu/libpcre2-8.so.0 \
   /lib/x86_64-linux-gnu/libpipewire-0.3.so.0 \
+  /lib/x86_64-linux-gnu/libpng16.so.16 \
   /lib/x86_64-linux-gnu/libpulse.so.0 \
   /lib/x86_64-linux-gnu/libsndfile.so.1 \
   /lib/x86_64-linux-gnu/libsndio.so.7 \
@@ -631,6 +981,7 @@ bin/game: /lib/x86_64-linux-gnu/libFLAC.so.14 \
   /lib/x86_64-linux-gnu/libwayland-egl.so.1 \
   /lib/x86_64-linux-gnu/libxcb.so.1 \
   /lib/x86_64-linux-gnu/libxkbcommon.so.0 \
+  /lib/x86_64-linux-gnu/libz.so.1 \
   /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/Scrt1.o \
   /usr/lib/x86_64-linux-gnu/crti.o \
@@ -648,8 +999,11 @@ bin/game: /lib/x86_64-linux-gnu/libFLAC.so.14 \
   /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
   /usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-17.0.so \
   CMakeFiles/game.dir/src/asset_loader.c.o \
+  CMakeFiles/game.dir/src/asteroid.c.o \
   CMakeFiles/game.dir/src/background.c.o \
+  CMakeFiles/game.dir/src/bullet.c.o \
   CMakeFiles/game.dir/src/engine.c.o \
+  CMakeFiles/game.dir/src/game.c.o \
   CMakeFiles/game.dir/src/main.c.o \
   CMakeFiles/game.dir/src/player.c.o
 
@@ -658,7 +1012,11 @@ CMakeFiles/game.dir/src/player.c.o:
 
 CMakeFiles/game.dir/src/main.c.o:
 
+CMakeFiles/game.dir/src/game.c.o:
+
 CMakeFiles/game.dir/src/engine.c.o:
+
+CMakeFiles/game.dir/src/bullet.c.o:
 
 CMakeFiles/game.dir/src/background.c.o:
 
@@ -676,6 +1034,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/lib/x86_64-linux-gnu/crti.o:
 
+/lib/x86_64-linux-gnu/libz.so.1:
+
 /lib/x86_64-linux-gnu/libxcb.so.1:
 
 /lib/x86_64-linux-gnu/libwayland-client.so.0:
@@ -684,15 +1044,15 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /lib/x86_64-linux-gnu/libvorbisenc.so.2:
 
-/lib/x86_64-linux-gnu/libvorbis.so.0:
-
 /lib/x86_64-linux-gnu/libsystemd.so.0:
 
 /lib/x86_64-linux-gnu/libsndio.so.7:
 
-/lib/x86_64-linux-gnu/libopus.so.0:
+/lib/x86_64-linux-gnu/libpng16.so.16:
 
-/lib/x86_64-linux-gnu/libogg.so.0:
+/lib/x86_64-linux-gnu/libpcre2-8.so.0:
+
+/lib/x86_64-linux-gnu/libopus.so.0:
 
 /lib/x86_64-linux-gnu/libmpg123.so.0:
 
@@ -703,6 +1063,10 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /usr/lib/x86_64-linux-gnu/libSDL3_ttf.so:
 
 /lib/x86_64-linux-gnu/libm.so.6:
+
+/lib/x86_64-linux-gnu/libvorbis.so.0:
+
+/lib/x86_64-linux-gnu/libglib-2.0.so.0:
 
 /lib/x86_64-linux-gnu/libgbm.so.1:
 
@@ -717,6 +1081,10 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /lib/x86_64-linux-gnu/libcap.so.2:
 
 /lib/x86_64-linux-gnu/libc.so.6:
+
+/lib/x86_64-linux-gnu/libbz2.so.1.0:
+
+/lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
 /lib/x86_64-linux-gnu/libasyncns.so.0:
 
@@ -756,9 +1124,19 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/engine.h:
 
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/bullet.c:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/background.c:
+
 /usr/include/SDL3/SDL_time.h:
 
 /usr/include/SDL3/SDL_timer.h:
+
+/lib/x86_64-linux-gnu/libX11.so.6:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/background.h:
+
+/usr/include/SDL3/SDL_thread.h:
 
 /usr/include/SDL3/SDL_scancode.h:
 
@@ -794,11 +1172,13 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/include/SDL3/SDL_platform.h:
 
-/usr/include/SDL3/SDL_metal.h:
-
 /usr/include/features-time64.h:
 
 /usr/include/SDL3/SDL_stdinc.h:
+
+/lib/x86_64-linux-gnu/libogg.so.0:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/asteroid.c:
 
 /usr/include/SDL3/SDL_blendmode.h:
 
@@ -809,6 +1189,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /usr/include/SDL3/SDL_hidapi.h:
 
 /usr/include/SDL3/SDL_atomic.h:
+
+/lib/x86_64-linux-gnu/libgraphite2.so.3:
 
 /lib/x86_64-linux-gnu/libbsd.so.0:
 
@@ -824,6 +1206,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/include/SDL3/SDL_gpu.h:
 
+/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
+
 /usr/include/SDL3/SDL_messagebox.h:
 
 /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/asset_loader.h:
@@ -837,12 +1221,6 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/SDL3/SDL_events.h:
-
-/lib/x86_64-linux-gnu/libX11.so.6:
-
-/usr/include/SDL3/SDL_thread.h:
-
-/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/background.h:
 
 /usr/include/SDL3/SDL_asyncio.h:
 
@@ -894,6 +1272,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+/lib/x86_64-linux-gnu/libharfbuzz.so.0:
+
 /usr/include/SDL3/SDL_assert.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h:
@@ -910,9 +1290,13 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/include/SDL3/SDL_joystick.h:
 
+/lib/x86_64-linux-gnu/libfreetype.so.6:
+
 /usr/include/wchar.h:
 
 /lib/x86_64-linux-gnu/libmvec.so.1:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/game.c:
 
 /usr/include/SDL3/SDL_video.h:
 
@@ -952,8 +1336,6 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/src/background.c:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/lib/x86_64-linux-gnu/libSDL3.so:
@@ -975,6 +1357,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h:
+
+/lib/x86_64-linux-gnu/libatomic.so.1:
 
 /usr/include/SDL3/SDL_haptic.h:
 
@@ -1002,6 +1386,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+CMakeFiles/game.dir/src/asteroid.c.o:
+
 /usr/include/SDL3/SDL_misc.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -1013,6 +1399,12 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /lib/x86_64-linux-gnu/libXcursor.so.1:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h:
+
+/usr/include/SDL3/SDL_metal.h:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/asteroid.h:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/bullet.h:
 
 /usr/include/SDL3/SDL_version.h:
 
@@ -1035,6 +1427,8 @@ CMakeFiles/game.dir/src/asset_loader.c.o:
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /lib/x86_64-linux-gnu/libpipewire-0.3.so.0:
+
+/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/include/game.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 

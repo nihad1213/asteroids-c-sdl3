@@ -1,8 +1,10 @@
 #include "engine.h"
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {  
-    
+int main() {
+    srand((unsigned)SDL_GetTicks());
+
     Engine e = {
         .window = {
             .title = "Asteroids",
