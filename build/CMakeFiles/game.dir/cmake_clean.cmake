@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/engine.c.o.d"
   "CMakeFiles/game.dir/src/main.c.o"
   "CMakeFiles/game.dir/src/main.c.o.d"
+  "CMakeFiles/game.dir/src/player.c.o"
+  "CMakeFiles/game.dir/src/player.c.o.d"
   "bin/game"
   "bin/game.pdb"
 )

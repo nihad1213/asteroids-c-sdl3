@@ -37,6 +37,7 @@ bool engine_init(Engine* engine) {
     }
 
     background_init(engine->window.width, engine->window.height);
+    player_init(&engine->player, engine->window.width, engine->window.height);
 
     engine->is_running = true;
     engine->last_ticks = SDL_GetTicks();
@@ -49,6 +50,7 @@ void engine_update(Engine* engine) {
     engine->last_ticks = current_ticks;
 
     background_update(delta_time);
+    player_update(&engine->player, delta_time, engine->window.width, engine->window.height);
 }
 
 void render(Engine* engine) {
@@ -56,6 +58,7 @@ void render(Engine* engine) {
     SDL_RenderClear(engine->window.renderer);
 
     background_render(engine->window.renderer);
+    player_render(&engine->player, engine->window.renderer);
 
     SDL_RenderPresent(engine->window.renderer);
 }

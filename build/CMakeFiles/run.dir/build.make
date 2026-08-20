@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/nihad/HDD212/C-Learning/asteroids-c-sdl3
+CMAKE_SOURCE_DIR = /media/nihad/HDD214/C-Learning/asteroids-c-sdl3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build
+CMAKE_BINARY_DIR = /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build
 
 # Utility rule file for run.
 
@@ -67,8 +67,8 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: bin/game
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running game..."
-	cd /media/nihad/HDD212/C-Learning/asteroids-c-sdl3 && /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/bin/game
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running game..."
+	cd /media/nihad/HDD214/C-Learning/asteroids-c-sdl3 && /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build/bin/game
 
 CMakeFiles/run.dir/codegen:
 .PHONY : CMakeFiles/run.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/nihad/HDD212/C-Learning/asteroids-c-sdl3 /media/nihad/HDD212/C-Learning/asteroids-c-sdl3 /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build /media/nihad/HDD212/C-Learning/asteroids-c-sdl3/build/CMakeFiles/run.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/nihad/HDD214/C-Learning/asteroids-c-sdl3 /media/nihad/HDD214/C-Learning/asteroids-c-sdl3 /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build /media/nihad/HDD214/C-Learning/asteroids-c-sdl3/build/CMakeFiles/run.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run.dir/depend
 

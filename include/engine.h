@@ -3,6 +3,7 @@
 #include <SDL3/SDL.h>
 #include <stdbool.h>
 #include "background.h"
+#include "player.h"
 
 typedef struct {
     SDL_Window* window;
@@ -14,6 +15,7 @@ typedef struct {
 
 typedef struct {
     Window window;
+    Player player;
     bool is_running;
     Uint64 last_ticks;
 } Engine;
