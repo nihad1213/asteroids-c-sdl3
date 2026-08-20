@@ -30,3 +30,9 @@ cmake --build build --target run
 ```
 
 Run via the `run` target (or from the project root) so the game can find its assets in `assets/`.
+
+## Demo
+
+https://github.com/user-attachments/assets/6874eb93-eb1c-4ac7-8d32-a7d906bf76ae
+
+
